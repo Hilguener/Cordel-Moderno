@@ -2,21 +2,23 @@
     @import url('https://fonts.googleapis.com/css2?family=Sriracha&display=swap');
 
     @font-face {
-        font-family:'PassionOne-Black.';
-        src: url(fontes/Passion_One/PassionOne-Black) format('truetype'); 
+        font-family:'PassionOne-Black.ttf';
+        src: url(Passion_One/PassionOne-Black.ttf) format('truetype'); 
     }
     :root{
             --fonte-header: 'PassionOne-Black.ttf';
-            --fonte-corpo: 'Sriracha-Regular', cursive;
+            --fonte-corpo: 'Sriracha';
         }
 
     *{
             padding: 0px;
             margin: 0px;
+            font-size: 1em;
         }
     html, body{
             min-height: 100vh;
             background-color: darkgray;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
         }
     header{
 
@@ -31,6 +33,7 @@
             padding-top: 50px;
             font-variant: small-caps;
             font-size: 10vw;
+         
         }
     header > p{
 
@@ -53,6 +56,7 @@
         color: white;
         text-align: center;
         padding: 7px;
+        font-size: medium;
         }
     section.normal{
         background-color: white;
@@ -65,7 +69,7 @@
     }
     section.imagem > p{
         background-color: rgba(0, 0, 0, 0.151);
-        width: 400px
+        display: inline-block;        
     }
    
     section{
@@ -73,7 +77,8 @@
         padding-bottom: 10vh;
         padding-top: 10vh;
         font-family: var(--fonte-corpo);
-        font-variant: small-caps;
+        font-size: 3.5vw;
+        
     }
     /*.imagem{
         background-image: url(imagens/background001.jpg);
