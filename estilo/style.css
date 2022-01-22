@@ -66,18 +66,37 @@
         background-color: rgb(51, 51, 51);
         color: white;
         background-image: url(imagens/background001.jpg);
+        background-size: cover;
     }
     section.imagem > p{
-        background-color: rgba(0, 0, 0, 0.151);
+        padding-bottom: 5px;
+        background-color: rgba(0, 0, 0, 0.514);
         display: inline-block;        
+        text-shadow: inset 1px 1px 0px black;
+     
+       
+    }
+    section > p{
+        padding-bottom:2em; 
+    }
+    section#img01{
+        background: black url(imagens/background001.jpg) right no-repeat fixed;
+        
+    }
+    section#img02{
+        background: black url(imagens/background002.jpg) center center no-repeat fixed;
+        
+        box-shadow: inset 6px 6px 13px 0px rgba(0, 0, 0, 0.425);
     }
    
     section{
         line-height: 2em;
-        padding-bottom: 10vh;
+        padding-left: 3vh;
         padding-top: 10vh;
+        padding-bottom: 10vh;
         font-family: var(--fonte-corpo);
         font-size: 3.5vw;
+        
         
     }
     /*.imagem{
